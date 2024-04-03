@@ -21,5 +21,6 @@ body {
   height: inherit;
   width: inherit;
   background-color: var(--color-primary);
+  color: var(--color-accent);
 }
 </style>
