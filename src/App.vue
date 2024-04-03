@@ -3,17 +3,17 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+  <main class="bg-zinc-500">
+    <RouterView />
+  </main>
 </template>
 
 <style>
 body {
   height: 100vh;
-  width: 100vm;
-  margin: 0;
 }
 #app {
   height: inherit;
-  width: inherit;
+  width: auto;
 }
 </style>

@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ProfilePicture from '@/components/ProfilePicture.vue'
+</script>
 
 <template>
-  <h1>HELLO WORLD</h1>
+  <div class="flex flex-col items-center">
+    <ProfilePicture />
+  </div>
 </template>
