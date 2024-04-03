@@ -3,17 +3,23 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <main class="bg-zinc-500">
+  <main>
     <RouterView />
   </main>
 </template>
 
 <style>
+:root {
+  --color-primary: #671f00;
+  --color-secondary: #915c51;
+  --color-accent: #e65336;
+}
 body {
   height: 100vh;
 }
 #app {
   height: inherit;
-  width: auto;
+  width: inherit;
+  background-color: var(--color-primary);
 }
 </style>
