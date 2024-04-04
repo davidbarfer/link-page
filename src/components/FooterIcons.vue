@@ -6,7 +6,7 @@ import { socialMedia } from '@/components/data/links.ts'
 </script>
 
 <template>
-  <footer class="flex justify-center gap-x-8 text-accent *:size-8">
+  <div class="flex justify-center gap-x-8 text-accent *:size-8">
     <a
       class="hover:scale-110"
       :href="socialMedia[0].link"
@@ -27,5 +27,5 @@ import { socialMedia } from '@/components/data/links.ts'
       :alt="socialMedia[2].alt"
       ><instagramIcon />
     </a>
-  </footer>
+  </div>
 </template>
