@@ -11,8 +11,8 @@ import { RouterView } from 'vue-router'
 <style>
 :root {
   --color-primary: #671f00;
-  --color-secondary: #915c51;
-  --color-accent: #e65336;
+  --color-secondary: #be4229;
+  --color-accent: #fffb00;
 }
 body {
   height: 100vh;
