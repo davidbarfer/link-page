@@ -40,7 +40,7 @@ export const links: link[] = [
 export const jobs: link[] = [
   {
     title: 'Wuolah - GITI',
-    link: 'https://www.wuolah.com/perfil/ByHunter/uploaded',
+    link: 'https://wuolah.com/profile/ByHunter',
     alt: 'Wuolah Profile'
   },
   {
