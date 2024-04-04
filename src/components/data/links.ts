@@ -37,6 +37,18 @@ export const links: link[] = [
     alt: 'BI Website'
   }
 ]
+export const jobs: link[] = [
+  {
+    title: 'Wuolah - GITI',
+    link: 'https://www.wuolah.com/perfil/ByHunter/uploaded',
+    alt: 'Wuolah Profile'
+  },
+  {
+    title: '3D Designs',
+    link: 'https://cults3d.com/en/users/david_byhunter/creations',
+    alt: 'Cults3D Profile'
+  }
+]
 export const donate: link = {
   title: 'Donate',
   link: 'https://www.paypal.com/paypalme/davidbyhunter',
