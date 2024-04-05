@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <a
-    class="flex justify-center rounded-full border-2 border-accent bg-secondary min-w-8 w-64 p-2 transition hover:opacity-80 hover:scale-105"
+    class="flex justify-center rounded-full border-2 border-accent bg-secondary min-w-8 w-64 p-2 transition hover:bg-accent hover:text-primary hover:scale-105"
     :href="props.link"
     :alt="props.alt"
     target="_blank"
