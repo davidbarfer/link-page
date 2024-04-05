@@ -11,6 +11,7 @@ import { socialMedia } from '@/components/data/links.ts'
       class="hover:scale-110"
       :href="socialMedia[0].link"
       :alt="socialMedia[0].alt"
+      target="_blank"
     >
       <linkedinIcon />
     </a>
@@ -18,6 +19,7 @@ import { socialMedia } from '@/components/data/links.ts'
       class="hover:scale-110"
       :href="socialMedia[1].link"
       :alt="socialMedia[1].alt"
+      target="_blank"
     >
       <githubIcon />
     </a>
@@ -25,7 +27,9 @@ import { socialMedia } from '@/components/data/links.ts'
       class="hover:scale-110"
       :href="socialMedia[2].link"
       :alt="socialMedia[2].alt"
-      ><instagramIcon />
+      target="_blank"
+    > 
+      <instagramIcon />
     </a>
   </div>
 </template>
