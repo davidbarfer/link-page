@@ -15,7 +15,9 @@ import { RouterView } from 'vue-router'
   --color-accent: #fffb00;
 }
 body {
+  display: flex;
   height: 100vh;
+  width: 100%;
 }
 #app {
   height: inherit;
