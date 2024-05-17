@@ -10,8 +10,8 @@ import { RouterView } from 'vue-router'
 
 <style>
 :root {
-  --color-primary: #1e0342;
-  --color-secondary: #0e46a3;
+  --color-primary: rgb(30, 3, 66);
+  --color-secondary: rgb(14, 70, 163);
   --color-accent: rgb(255, 200, 0);
 }
 body {
