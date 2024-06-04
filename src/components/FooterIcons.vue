@@ -13,6 +13,7 @@ import { socialMedia } from '@/components/data/links.ts'
       :href="socialMedia[0].link"
       :alt="socialMedia[0].alt"
       target="_blank"
+      :aria-label="socialMedia[0].title"
     >
       <linkedinIcon />
     </a>
@@ -21,6 +22,7 @@ import { socialMedia } from '@/components/data/links.ts'
       :href="socialMedia[1].link"
       :alt="socialMedia[1].alt"
       target="_blank"
+      :aria-label="socialMedia[1].title"
     >
       <githubIcon />
     </a>
@@ -29,6 +31,7 @@ import { socialMedia } from '@/components/data/links.ts'
       :href="socialMedia[2].link"
       :alt="socialMedia[2].alt"
       target="_blank"
+      :aria-label="socialMedia[2].title"
     >
       <instagramIcon />
     </a>
@@ -37,6 +40,7 @@ import { socialMedia } from '@/components/data/links.ts'
       :href="socialMedia[3].link"
       :alt="socialMedia[3].alt"
       target="_blank"
+      :aria-label="socialMedia[3].title"
     >
       <MailIcon />
     </a>
