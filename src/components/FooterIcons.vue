@@ -2,6 +2,7 @@
 import linkedinIcon from '@/assets/linkedinIcon.vue'
 import githubIcon from '@/assets/githubIcon.vue'
 import instagramIcon from '@/assets/instagramIcon.vue'
+import MailIcon from '@/assets/mailIcon.vue'
 import { socialMedia } from '@/components/data/links.ts'
 </script>
 
@@ -28,8 +29,16 @@ import { socialMedia } from '@/components/data/links.ts'
       :href="socialMedia[2].link"
       :alt="socialMedia[2].alt"
       target="_blank"
-    > 
+    >
       <instagramIcon />
+    </a>
+    <a
+      class="hover:scale-110"
+      :href="socialMedia[3].link"
+      :alt="socialMedia[3].alt"
+      target="_blank"
+    >
+      <MailIcon />
     </a>
   </div>
 </template>

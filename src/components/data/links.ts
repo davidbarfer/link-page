@@ -18,6 +18,11 @@ export const socialMedia: link[] = [
     title: 'instagram',
     link: 'https://www.instagram.com/david_byhunter/',
     alt: 'Instagram Profile'
+  },
+  {
+    title: 'mail',
+    link: 'mailto:info@davidbarfer.com',
+    alt: 'Contact email'
   }
 ]
 export const links: link[] = [
