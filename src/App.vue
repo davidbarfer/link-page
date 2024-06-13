@@ -14,6 +14,9 @@ import { RouterView } from 'vue-router'
   --color-secondary: rgb(14, 70, 163);
   --color-accent: rgb(255, 200, 0);
 }
+html {
+  background-color: var(--color-primary);
+}
 body {
   display: flex;
   height: 100vh;
@@ -22,7 +25,6 @@ body {
 #app {
   height: inherit;
   width: inherit;
-  background-color: var(--color-primary);
   color: var(--color-accent);
 }
 </style>
