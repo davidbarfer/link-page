@@ -44,6 +44,11 @@ export const links: link[] = [
 ]
 export const jobs: link[] = [
   {
+    title: 'Career',
+    link: 'https://career.davidbarfer.com/',
+    alt: 'Career website'
+  },
+  {
     title: 'Wuolah - GITI',
     link: 'https://wuolah.com/profile/ByHunter',
     alt: 'Wuolah Profile'
