@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import { Analytics } from '@vercel/analytics/nuxt'
 </script>
 
 <template>
   <main>
     <RouterView />
+    <Analytics />
   </main>
 </template>
 
