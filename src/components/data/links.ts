@@ -49,11 +49,6 @@ export const jobs: link[] = [
     alt: 'Portfolio'
   },
   {
-    title: 'Wuolah - GITI',
-    link: 'https://wuolah.com/profile/ByHunter',
-    alt: 'Wuolah Profile'
-  },
-  {
     title: '3D Designs',
     link: 'https://cults3d.com/en/users/david_byhunter/creations',
     alt: 'Cults3D Profile'
