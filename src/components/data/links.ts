@@ -11,7 +11,7 @@ export const socialMedia: link[] = [
   },
   {
     title: 'github',
-    link: 'https://github.com/David-ByHunter',
+    link: 'https://github.com/davidbarfer',
     alt: 'GitHub Profile'
   },
   {
